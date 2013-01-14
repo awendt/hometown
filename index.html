@@ -1,0 +1,24 @@
+---
+layout: welcome
+---
+
+<p>This site is inspired by Michael Hobbes' <a href="http://rottenindenmark.wordpress.com/2012/01/03/my-hometown-is-better-than-yours/">hilarious blog post on Seattle</a>.</p>
+
+<p>If you feel <em>your</em> hometown is objectively superior to any other place, contribute to this website on <a href="https://github.com/awendt/hometown">GitHub</a>—it's open source.
+
+<hr>
+
+<!-- <nav> -->
+  <h3>Currently available:</h3>
+  <ul class="square add-bottom">
+    {% for post in site.posts %}
+      {% assign current = nil %}
+      {% if page.url == post.url %}
+        {% assign current = 'current' %}
+      {% endif %}
+      <li class="{{ current }}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+<!-- </nav> -->
