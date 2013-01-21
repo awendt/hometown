@@ -197,9 +197,9 @@
   }
 
   div.image_with_caption {
-    border:1px solid #eee;
     padding: 10px;
     margin-bottom:20px;
+    text-align: center;
   }
 
   p.caption {
