@@ -17,13 +17,13 @@ layout: hometown
 title: #{new_hometown}
 ---
 
-{% ccimage %}
-  {% author Robert Ashley %}
-  {% original http://www.flickr.com/photos/ashley3d/6921543223/ %}
-  {% source /images/skyline.jpg %}
-  {% size 640x165 %}
-  {% caption #{new_hometown} is objectively superior to the place you grew up. %}
-{% endccimage %}
+<div class="image_with_caption">
+  <img src="/images/skyline.jpg" width="500" height="129" />
+  <p class="caption">#{new_hometown} is objectively superior to the place you grew up.</p>
+  <p class="attribution">
+    <a href="http://www.flickr.com/photos/ashley3d/6921543223/">Robert Ashley, CC-BY-SA</a>
+  </p>
+</div>
 EOS
   puts "Created _posts/#{filename} with a basic template. Have fun!"
   end
