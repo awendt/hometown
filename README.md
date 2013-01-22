@@ -13,8 +13,8 @@ So here you go: A basic template to show off how much better your hometown is! T
 If you feel your hometown is objectively superior to mine:
 
 1. Fork the project
-2. Find CC-licensed photos of your hometown
-3. Run `rake new` to get started
+2. Find CC-licensed photos of your hometown (or even better, take some pictures yourself!)
+3. Run `rake new` to create a template for your content
 4. Add funny and/or sarcastic captions
 5. View result by running `jekyll --server` and navigate your browser to http://localhost:4000
 5. Send a pull request when you're done
