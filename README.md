@@ -6,7 +6,7 @@ When I read Michael Hobbes' [hilarious blog post on Seattle](http://rottenindenm
 
 And then I realized: Everybody should be doing this for their hometown...
 
-So here you go: A basic template to show off how much better your hometown is! Tell the world about it by adding your hometown.
+So here you go: A basic template to show off how much better your hometown is! Tell the world about it by adding your hometown to [myhometownisbetterthanyours.com](http://www.myhometownisbetterthanyours.com)
 
 ## How to contribute
 
